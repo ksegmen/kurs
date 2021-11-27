@@ -1,0 +1,32 @@
+package day01_02Variables;
+
+public class C01_Variables {
+   
+	
+	public static void main(String[] args) {
+		// variable olusturmak ve deger atamak farkli islemlerdir
+		// istersek variable olusturma ve deger atamayi tek satirda yapabiliriz
+	
+		String ogrenciIsim = " Celal " ;
+		
+		System.out.println(ogrenciIsim);
+		
+		// istersekde once olusturur istedigiiz zaman deger atariz
+		
+		
+		
+		int sayi;
+		sayi=10;
+		System.out.println(sayi);
+		// biz daha once olusturulmus ve deger tamasi yapilmis  bir degiskene 
+		// deger atamasi atayabiliriz
+		// bu durumda java variablenin eski degerini silip yeni degeri variable a atar
+	    sayi=25;
+		System.out.println(sayi);  // 25
+		
+		ogrenciIsim="Mustafa" ;
+		
+		System.out.println(ogrenciIsim);   // Mustafa
+		
+}
+}
